@@ -1,0 +1,132 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:is(.dark *));
+
+/* ---------------------------------------------------------------------------
+   SISU FREE SOUL — design tokens
+   Warm editorial palette: off-white, sage, clay/terracotta, cream, deep green.
+--------------------------------------------------------------------------- */
+
+:root {
+  color-scheme: light;
+
+  --background: #f3f0e9;
+  --surface: #e8e2d8;
+  --foreground: #24231f;
+  --muted: #817c73;
+  --muted-foreground: #6f6a61;
+
+  --sage: #a9b3a0;
+  --sage-soft: #cbd0c3;
+
+  --clay: #c27a64;
+  --terracotta: #a75e4d;
+
+  --butter: #ded4a6;
+
+  --deep-green: #343d35;
+  --warm-black: #1e1f1b;
+  --off-white: #f7f5ef;
+
+  --border: #d8d1c4;
+  --radius: 0.5rem;
+
+  /* mapped shadcn-ish tokens so primitives still work */
+  --primary: #24231f;
+  --primary-foreground: #f7f5ef;
+  --ring: #a75e4d;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+
+  --color-sage: var(--sage);
+  --color-sage-soft: var(--sage-soft);
+
+  --color-clay: var(--clay);
+  --color-terracotta: var(--terracotta);
+
+  --color-butter: var(--butter);
+
+  --color-deep-green: var(--deep-green);
+  --color-warm-black: var(--warm-black);
+  --color-off-white: var(--off-white);
+
+  --color-border: var(--border);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-ring: var(--ring);
+
+  --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-cormorant), Georgia, 'Times New Roman', serif;
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+  html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: clip;
+  }
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    overflow-x: clip;
+    width: 100%;
+  }
+  a[href], button, [role='button'] { cursor: pointer; }
+  main { overflow-x: clip; }
+  ::selection {
+    background-color: var(--clay);
+    color: var(--off-white);
+  }
+  /* Visible, editorial focus ring */
+  :focus-visible {
+    outline: 2px solid var(--terracotta);
+    outline-offset: 3px;
+  }
+}
+
+@layer utilities {
+  /* Thin editorial letter tracking helpers */
+  .tracking-label {
+    letter-spacing: 0.18em;
+  }
+  .tracking-wide-2 {
+    letter-spacing: 0.06em;
+  }
+
+  /* Native pointer remains visible; media labels are a visual enhancement only. */
+  .cursor-none-desktop { cursor: pointer; }
+
+  /* Hide scrollbars on horizontal scrollers while staying scrollable */
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .sisu-media-cursor { display: none; }
+  @media (hover: hover) and (pointer: fine) {
+    .sisu-media-cursor { display: block; }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
