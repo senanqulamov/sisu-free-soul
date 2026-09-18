@@ -25,8 +25,7 @@ export function Manifesto() {
         <div className="mt-24 grid gap-10 md:mt-36 md:grid-cols-12">
           <div className="md:col-span-4 md:col-start-1">
             <p className="font-sans text-sm leading-relaxed text-muted">
-              SISU bir metod deyil. Bir baxış tərzidir — dünyaya, seçimlərə və öz
-              içimizə necə baxdığımız haqqında.
+                SISU — insanın içindəki daxili gücüdür, ən çətin anlarda belə davam etmək iradəsi və ruhunun dayanıqlılığıdır.
             </p>
           </div>
           <RevealText

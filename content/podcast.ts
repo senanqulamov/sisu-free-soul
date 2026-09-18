@@ -21,11 +21,11 @@ export type PodcastEpisode = {
 
 export const podcastEpisodes: PodcastEpisode[] = [
   {
-    slug: 'oz-heyatini-sen-secmisen',
+    slug: 'ozunu-tani',
     episode: 1,
-    title: 'Öz həyatını həqiqətən sən seçmisən?',
+    title: 'Özünü Tanı',
     description:
-      'Seçimlərimizin nə qədəri bizimdir və nə qədəri başqalarının gözləntiləridir? Təhminə və Senan cəmiyyətin qəlibləri haqqında danışır.',
+      'Həqiqətən kim olduğunu kəşf et. Sənə öyrədilən kimliklərin, qorxuların və gözləntilərin arxasında əsl səni araşdır.',
     guests: ['Təhminə Doruk', 'Senan'],
     duration: '58 MIN',
     category: 'Conversations',
@@ -54,11 +54,11 @@ export const podcastEpisodes: PodcastEpisode[] = [
     ],
   },
   {
-    slug: 'qorxu-bizi-qoruyur-yoxsa-saxlayir',
+    slug: 'azad-ol',
     episode: 2,
-    title: 'Qorxu bizi qoruyur, yoxsa saxlayır?',
+    title: 'Azad ol',
     description:
-      'Qorxunun psixologiyası, onu necə tanımaq və onunla necə yaşamaq barədə səmimi söhbət.',
+      'Öz həyatını başqalarının qaydaları ilə yaşamaq məcburiyyətində deyilsən. Sərhədləri, münasibətləri, cəmiyyətin gözləntilərini və səni özündən uzaqlaşdıran görünməz bağları yenidən düşün.',
     guests: ['Təhminə Doruk', 'Senan'],
     duration: '46 MIN',
     category: 'Psychology',
@@ -70,11 +70,11 @@ export const podcastEpisodes: PodcastEpisode[] = [
     quotes: ['Qorxu bir siqnaldır, qadağa deyil.'],
   },
   {
-    slug: 'munasibetlerde-azadliq',
+    slug: 'ozunu-yeniden-qur',
     episode: 3,
-    title: 'Münasibətlərdə azadlıq mümkündürmü?',
+    title: 'Özünü Yenidən Qur',
     description:
-      'Yaxınlıq və azadlıq bir arada ola bilərmi? Sağlam sərhədlər və seçim haqqında.',
+      'Bəzən yeni bir həyata başlamaq üçün əvvəlcə köhnə özünü buraxmalısan. Dəyişiklik, itki, qorxu və qeyri-müəyyənliyin içindən keçərək sənə uyğun olan həyatı gör və onu yenidən qur.',
     guests: ['Təhminə Doruk', 'Senan'],
     duration: '1H 04',
     category: 'Relationships',
@@ -84,11 +84,11 @@ export const podcastEpisodes: PodcastEpisode[] = [
     summary: 'TODO: Real epizod məzmunu ilə əvəz et.',
   },
   {
-    slug: 'ugur-kimin-terifidir',
+    slug: 'zehib-beden-haqiqet',
     episode: 4,
-    title: 'Uğur kimin tərifidir?',
+    title: 'Zehin, Bədən və Həqiqət',
     description:
-      'Uğurun kimin tərifi olduğunu və öz ölçülərimizi necə yaratmağı araşdırırıq.',
+      'Düşüncələrin, bədənin və dünyanı qavramağın bir-birindən nə qədər ayrıdır? Psixologiya, neyroelm, şüur və bədən arasındakı əlaqəni həm rasional, həm də açıq düşüncə ilə araşdır.',
     guests: ['Təhminə Doruk', 'Senan'],
     duration: '51 MIN',
     category: 'Life',
@@ -98,11 +98,11 @@ export const podcastEpisodes: PodcastEpisode[] = [
     summary: 'TODO: Real epizod məzmunu ilə əvəz et.',
   },
   {
-    slug: 'oz-sesimizi-esitmek',
+    slug: 'mena-axtarisi',
     episode: 5,
-    title: 'Öz səsimizi eşitməyi nə vaxt dayandırırıq?',
+    title: 'Məna Axtarışında',
     description:
-      'Daxili səsimizlə əlaqəni itirmək və onu yenidən tapmaq haqqında.',
+      'Yaşamaq, sevmək, itirmək və var olmaq nə deməkdir? Fəlsəfə, spirituallıq, ölüm, həyat, tənhalıq və insan olmağın dərin suallarının ardınca get.',
     guests: ['Təhminə Doruk'],
     duration: '39 MIN',
     category: 'Freedom',
