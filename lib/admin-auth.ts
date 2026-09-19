@@ -12,8 +12,13 @@ export function verifyPassword(password: string) {
   if (!encoded || !secret()) return false
   const [algorithm, salt, expected] = encoded.split(':')
   if (algorithm !== 'scrypt' || !salt || !expected) return false
-  const actual = crypto.scryptSync(password, salt, 64).toString('base64url')
-  return crypto.timingSafeEqual(Buffer.from(actual), Buffer.from(expected))
+  try {
+    const actual = Buffer.from(crypto.scryptSync(password, salt, 64).toString('base64url'))
+    const expectedHash = Buffer.from(expected)
+    return actual.length === expectedHash.length && crypto.timingSafeEqual(actual, expectedHash)
+  } catch {
+    return false
+  }
 }
 
 export async function createSession(email: string) {
