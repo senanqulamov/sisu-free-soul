@@ -39,3 +39,7 @@ export async function requireAdmin() {
   const value = (await cookies()).get(COOKIE)?.value
   if (!sessionFromValue(value)) throw new Error('UNAUTHORIZED')
 }
+
+export async function isAdmin() {
+  return sessionFromValue((await cookies()).get(COOKIE)?.value)
+}

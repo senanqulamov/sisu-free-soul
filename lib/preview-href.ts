@@ -1,0 +1,1 @@
+export function previewHref(href:string,preview:boolean){if(!preview||href.startsWith('#')||!href.startsWith('/'))return href;const [path,hash]=href.split('#');if(path.includes('preview=1'))return href;return `${path}${path.includes('?')?'&':'?'}preview=1${hash?`#${hash}`:''}`}
