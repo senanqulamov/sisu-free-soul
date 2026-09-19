@@ -1,16 +1,13 @@
 import Image from 'next/image'
 import { notFound } from 'next/navigation'
-import { getArticle } from '@/content/journal'
-import { getEpisode } from '@/content/podcast'
-import { getStory } from '@/content/stories'
-import { getVideo } from '@/content/videos'
+import { publishedContent } from '@/content/cms'
 
 const supported = ['journal', 'podcast', 'videos', 'stories'] as const
 
 export default async function DetailPage({ params }: { params: Promise<{ section: string; slug: string }> }) {
   const { section, slug } = await params
   if (!supported.includes(section as typeof supported[number])) notFound()
-  const item = section === 'journal' ? getArticle(slug) : section === 'podcast' ? getEpisode(slug) : section === 'videos' ? getVideo(slug) : getStory(slug)
+  const item = section === 'journal' ? publishedContent.journal.find((item) => item.slug === slug && item.visible !== false) : section === 'podcast' ? publishedContent.podcasts.find((item) => item.slug === slug && item.visible !== false) : section === 'videos' ? publishedContent.videos.find((item) => item.slug === slug && item.visible !== false) : publishedContent.stories.find((item) => item.slug === slug && item.visible !== false)
   if (!item) notFound()
   const image = 'portrait' in item ? item.portrait : 'poster' in item ? item.poster : item.cover
   const label = 'episode' in item ? `SISU CONVERSATIONS · EP ${String(item.episode).padStart(2, '0')}` : section.toUpperCase()

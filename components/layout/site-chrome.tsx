@@ -1,12 +1,17 @@
+'use client'
+
 import { Header } from '@/components/navigation/header'
 import { Footer } from '@/components/layout/footer'
 import { ScrollProgress } from '@/components/motion/scroll-progress'
 import { CustomCursor } from '@/components/motion/custom-cursor'
 import { SmoothScrollProvider } from '@/components/motion/smooth-scroll-provider'
 import { ToTop } from '@/components/motion/to-top'
+import { usePathname } from 'next/navigation'
 
 /** Persistent chrome shared across all routes. */
 export function SiteChrome({ children }: { children: React.ReactNode }) {
+  const pathname = usePathname()
+  if (pathname.startsWith('/admin')) return <>{children}</>
   return (
     <SmoothScrollProvider>
       <ScrollProgress />

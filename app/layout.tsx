@@ -2,6 +2,7 @@ import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import { Cormorant_Garamond, Manrope } from 'next/font/google'
 import { SiteChrome } from '@/components/layout/site-chrome'
+import { publishedContent } from '@/content/cms'
 import './globals.css'
 
 const cormorant = Cormorant_Garamond({
@@ -22,11 +23,10 @@ const manrope = Manrope({
 export const metadata: Metadata = {
   metadataBase: new URL('https://sisufreesoul.com'),
   title: {
-    default: 'SISU Free Soul — Öz həyatının müəllifi ol',
+    default: publishedContent.seo.title,
     template: '%s — SISU Free Soul',
   },
-  description:
-    'Təhminə Doruk — həyat, azadlıq və dürüst söhbətlər. Hazır qəliblərdən çıx, öz yolunu seç, öz həqiqətini yarat. Podcast, videolar, düşüncələr və hekayələr.',
+  description: publishedContent.seo.description,
   keywords: [
     'SISU',
     'Free Soul',
@@ -42,16 +42,15 @@ export const metadata: Metadata = {
     locale: 'az_AZ',
     url: 'https://sisufreesoul.com',
     siteName: 'SISU Free Soul',
-    title: 'SISU Free Soul — Öz həyatının müəllifi ol',
-    description:
-      'Həyat, azadlıq və dürüst söhbətlər. Öz yolunu seç, öz həqiqətini yarat.',
-    images: [{ url: '/images/sisu-hero-poster.png', width: 1200, height: 630 }],
+    title: publishedContent.seo.ogTitle,
+    description: publishedContent.seo.ogDescription,
+    images: [{ url: publishedContent.seo.ogImage, width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'SISU Free Soul — Öz həyatının müəllifi ol',
-    description: 'Həyat, azadlıq və dürüst söhbətlər.',
-    images: ['/images/sisu-hero-poster.png'],
+    title: publishedContent.seo.ogTitle,
+    description: publishedContent.seo.ogDescription,
+    images: [publishedContent.seo.ogImage],
   },
   alternates: { canonical: '/' },
   generator: 'v0.app',
