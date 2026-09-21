@@ -1,1 +1,532 @@
-{}
+{
+  "homepage": {
+    "heroEyebrow": "01 / SISU",
+    "heroName": "Təhminə Doruk",
+    "heroTitle": "SISU FREE\nSOUL @@@@@",
+    "heroTagline": "Öz həyatının müəllifi ol.",
+    "heroDescription": "Hazır qəliblərdən çıx. Öz yolunu seç. Öz həqiqətini yarat.",
+    "heroCtaLabel": "Hekayəni kəşf et",
+    "heroCtaHref": "/about",
+    "heroImage": "/images/tahmina/5219684625851032054.jpg",
+    "heroImageAlt": "Təhminə səhər işıqları fonunda.",
+    "manifestoLabel": "SISU",
+    "manifestoLineOne": "Azadlıq istədiyin hər şeyi etmək deyil.",
+    "manifestoLineTwo": "Azadlıq — öz həyatını seçmək və onun müəllifi olmaqdadır.",
+    "manifestoDescription": "SISU — insanın içindəki daxili gücüdür, ən çətin anlarda belə davam etmək iradəsi və ruhunun dayanıqlılığıdır.",
+    "manifestoLines": "Hiss edirəm.\nMüşahidə edirəm.\nSorğulayıram.\nAraşdırıram.\nVə sonda öz həqiqətimi\nözüm yaradıram.",
+    "interludeLabel": "A QUIET DECISION",
+    "interludeLineOne": "Bəzən öz yolun",
+    "interludeLineTwo": "sadəcə bir addımdan başlayır.",
+    "tahmineLabel": "TƏHMİNƏ",
+    "tahmineImage": "/images/tahmina/5219684625851032051.jpg",
+    "tahmineImageAlt": "Təhminə Doruk, təbii gecə işığında.",
+    "tahmineCaption": "Təhminə Doruk / Bakı",
+    "tahmineTitle": "Mən\nkiməm?",
+    "tahmineSisuTitle": "SISU\nFree Soul\nnədir?",
+    "tahmineDescription": "Hər zaman axtarışda olan, azadlığını hər şeydən üstün tutan, həyatın dərin mənasını və öz yolumu tapmağa çalışan bir qadınam. Həyatı doya-doya yaşayan, sadəcə özünü bir cümlə və ya bir qəliblə məhdudlaşdırmaq istəməyən bir insanam.",
+    "tahmineQuote": "SISU – Free Soul, həyatın içində özünü itirmədən, özün olaraq yaşamağın mümkün olduğuna inanan bir məkandır.",
+    "tahmineCta": "Hekayəmi oxu",
+    "tahmineCtaHref": "/about",
+    "signatureLeftImage": "/images/tahmina/5219684625851032051.jpg",
+    "signatureLeftAlt": "Təhminə açıq havada.",
+    "signatureRightImage": "/images/tahmina/5219684625851032054.jpg",
+    "signatureRightAlt": "Təhminənin kinematik portreti.",
+    "signatureWideImage": "/images/tahmina/5219684625851032047.jpg",
+    "signatureWideAlt": "Təhminənin geniş film kadrı.",
+    "signatureQuote": "Bəzən yol görünmür — çünki onu özün addım-addım yaradırsan.",
+    "podcastLabel": "PODCASTLAR",
+    "podcastTitle": "SISU\nPODCASTLAR",
+    "podcastDescription": "İnanmaqdan əvvəl sorğula. Hazır cavabların arxasınca getməkdənsə, birlikdə daha dərinə baxaq.",
+    "podcastCta": "Bütün epizodlar",
+    "podcastCtaHref": "/podcast",
+    "podcastFeatureText": "Təhminə Doruk × Senan — two perspectives, one conversation.",
+    "watchLabel": "WATCH",
+    "watchTitle": "Fikirlər\nvə\nSöhbətlər.",
+    "watchDescription": "Fərqli fikirlər, ortaq suallar, yeni baxışlar",
+    "watchCta": "İzləməyə başla",
+    "watchCtaHref": "/videos",
+    "journalLabel": "YAZILAR",
+    "journalTitle": "Həqiqətlər",
+    "journalCta": "Hamısını oxu",
+    "journalCtaHref": "/journal",
+    "storiesLabel": "HEKAYƏLƏR",
+    "storiesTitle": "Hekayələrimiz\nbizi dəyişdirir.",
+    "storiesDescription": "Hər hekayənin arxasında yaşanmış bir həyat, hiss edilmiş bir dünya var.",
+    "storiesCta": "Bütün hekayələr",
+    "storiesCtaHref": "/stories",
+    "contactLabel": "WORK TOGETHER",
+    "contactTitle": "Bəzən cavab lazım deyil.\nDoğru sual lazımdır.",
+    "contactDescription": "Təhminə ilə iş bir həll paketi deyil. Sakit, dürüst və sənin suallarına yer açan söhbətdir.",
+    "contactCta": "Söhbətə başlayaq",
+    "contactHref": "/contact",
+    "contactPageTitle": "Dürüst bir söhbət üçün yer var.",
+    "contactPageDescription": "Fərdi söhbətlər, workshoplar, çıxışlar və yaradıcı əməkdaşlıqlar üçün yaz.",
+    "closingTitle": "Öz yolunu seçmək həmişə asan deyil.",
+    "closingText": "Amma həyatının müəllifi olmaq — bəlkə də ən böyük azadlıqdır.",
+    "closingImage": "/images/tahmina/5219684625851032047.jpg",
+    "closingImageAlt": "Təhminənin sakit anı."
+  },
+  "about": {
+    "heroLabel": "01 / TƏHMİNƏ",
+    "heroTitle": "Mən\nkiməm?",
+    "heroDescription": "SISU mənim üçün öz həqiqətinə uyğun yaşamaq cəsarətidir.",
+    "heroImage": "/images/tahmina/5219684625851032048.jpg",
+    "heroImageAlt": "Təhminə Doruk şəhər fonunda.",
+    "scrollLabel": "Aşağı kəşf et ↓",
+    "introLabel": "02 / SISU",
+    "introTitle": "Özünü hazır qəlibə salmaq yox, özünə uyğun yolu və həyatı yaratmaq.",
+    "introDescription": "Təhminənin hekayəsi nəticədən çox müşahidə, sual və seçim haqqındadır. Bu səhifə həmin baxışı yavaş-yavaş açır.",
+    "quote": "Öz həyatını\nözün seçmək\ncəsarətdir.",
+    "freedomLabel": "SISU / BAXIŞ",
+    "wideImage": "/images/tahmina/5219684625851032054.jpg",
+    "wideImageAlt": "Təhminənin sakit şəhər portreti.",
+    "freedomTitle": "Azadlıq istədiyin hər şeyi etmək deyil.",
+    "freedomText": "Azadlıq — öz həyatını seçmək və onun müəllifi olmaqdadır.",
+    "contactCta": "Söhbətə başlayaq",
+    "contactHref": "/contact"
+  },
+  "pages": {
+    "about": {
+      "label": "01 / TƏHMİNƏ",
+      "title": "Mən kiməm?",
+      "intro": ""
+    },
+    "journal": {
+      "label": "JOURNAL",
+      "title": "Düşüncələr",
+      "intro": "Tələsmədən baxmaq, soruşmaq və öz səsini yenidən eşitmək üçün qeydlər."
+    },
+    "podcast": {
+      "label": "SISU CONVERSATIONS",
+      "title": "Podcast",
+      "intro": "Həyat, münasibətlər, seçimlər, qorxular və insan olmaq haqqında filtrlənməmiş söhbətlər."
+    },
+    "videos": {
+      "label": "WATCH",
+      "title": "Fikirlər. Hekayələr. Söhbətlər.",
+      "intro": "Qısa filmlər, kadrarxası və düşünməyə davam edən vizual esselər."
+    },
+    "stories": {
+      "label": "STORIES",
+      "title": "Hekayələrimiz bizi dəyişdirir.",
+      "intro": "İnsanların öz yolunu tapmaq üçün verdiyi sakit, cəsarətli qərarlar."
+    },
+    "contact": {
+      "label": "CONTACT",
+      "title": "Söhbətə başlayaq.",
+      "intro": "Bir sualın, fikrin və ya əməkdaşlıq təklifin varsa, buradan başlaya bilərik."
+    }
+  },
+  "navigation": [
+    {
+      "label": "Mən kiməm",
+      "href": "/about",
+      "index": "01",
+      "visible": true
+    },
+    {
+      "label": "Düşüncələr",
+      "href": "/journal",
+      "index": "02",
+      "visible": true
+    },
+    {
+      "label": "Podcast",
+      "href": "/podcast",
+      "index": "03",
+      "visible": true
+    },
+    {
+      "label": "Videolar",
+      "href": "/videos",
+      "index": "04",
+      "visible": true
+    },
+    {
+      "label": "Hekayələr",
+      "href": "/stories",
+      "index": "05",
+      "visible": true
+    },
+    {
+      "label": "Əlaqə",
+      "href": "/contact",
+      "index": "06",
+      "visible": true
+    }
+  ],
+  "footer": {
+    "title": "FREE SOUL.",
+    "email": "hello@sisufreesoul.com",
+    "contactLabel": "Söhbətə başlayaq →",
+    "motto": "Öz həyatının müəllifi ol.",
+    "copyright": "© SISU Free Soul 2026",
+    "credit": "Made with courage.",
+    "owner": "Təhminə Doruk",
+    "socials": [
+      {
+        "label": "Instagram",
+        "href": "https://instagram.com"
+      },
+      {
+        "label": "YouTube",
+        "href": "https://youtube.com"
+      },
+      {
+        "label": "Spotify",
+        "href": "https://spotify.com"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://linkedin.com"
+      }
+    ]
+  },
+  "seo": {
+    "title": "SISU Free Soul — Öz həyatının müəllifi ol",
+    "description": "Təhminə Doruk — həyat, azadlıq və dürüst söhbətlər. Hazır qəliblərdən çıx, öz yolunu seç, öz həqiqətini yarat. Podcast, videolar, düşüncələr və hekayələr.",
+    "ogTitle": "SISU Free Soul — Öz həyatının müəllifi ol",
+    "ogDescription": "Həyat, azadlıq və dürüst söhbətlər. Öz yolunu seç, öz həqiqətini yarat.",
+    "ogImage": "/images/sisu-hero-poster.png"
+  },
+  "podcasts": [
+    {
+      "slug": "ozunu-tani",
+      "episode": 1,
+      "title": "Özünü Tanı",
+      "description": "Həqiqətən kim olduğunu kəşf et. Sənə öyrədilən kimliklərin, qorxuların və gözləntilərin arxasında əsl səni araşdır.",
+      "guests": [
+        "Təhminə Doruk",
+        "Senan"
+      ],
+      "duration": "58 MIN",
+      "category": "Conversations",
+      "date": "2026-01-14",
+      "cover": "/images/podcast-featured.png",
+      "spotifyUrl": "https://spotify.com",
+      "appleUrl": "https://podcasts.apple.com",
+      "youtubeUrl": "https://youtube.com",
+      "summary": "Bu epizodda seçim azadlığının həqiqi mənası, cəmiyyətin bizə hazırladığı qəliblər və öz həyatının müəllifi olmaq cəsarəti müzakirə olunur. TODO: Real epizod məzmunu ilə əvəz et.",
+      "chapters": [
+        {
+          "time": "00:00",
+          "title": "Giriş — kim seçir?"
+        },
+        {
+          "time": "07:20",
+          "title": "Cəmiyyətin hazır qəlibləri"
+        },
+        {
+          "time": "19:45",
+          "title": "Qorxu və məsuliyyət"
+        },
+        {
+          "time": "34:10",
+          "title": "Öz həqiqətini yaratmaq"
+        },
+        {
+          "time": "49:30",
+          "title": "Yekun düşüncələr"
+        }
+      ],
+      "questions": [
+        "Son qərarını həqiqətən sən verdinmi?",
+        "Kimin gözləntiləri sənin həyatını idarə edir?",
+        "Azadlıq sənin üçün nə deməkdir?"
+      ],
+      "quotes": [
+        "Azadlıq — öz həyatını seçmək və onun müəllifi olmaqdır.",
+        "Seçim etməmək də bir seçimdir."
+      ],
+      "visible": true,
+      "featured": true
+    },
+    {
+      "slug": "azad-ol",
+      "episode": 2,
+      "title": "Azad ol",
+      "description": "Öz həyatını başqalarının qaydaları ilə yaşamaq məcburiyyətində deyilsən. Sərhədləri, münasibətləri, cəmiyyətin gözləntilərini və səni özündən uzaqlaşdıran görünməz bağları yenidən düşün.",
+      "guests": [
+        "Təhminə Doruk",
+        "Senan"
+      ],
+      "duration": "46 MIN",
+      "category": "Psychology",
+      "date": "2026-01-28",
+      "cover": "/images/sisu-close.png",
+      "spotifyUrl": "https://spotify.com",
+      "youtubeUrl": "https://youtube.com",
+      "summary": "TODO: Real epizod məzmunu ilə əvəz et.",
+      "quotes": [
+        "Qorxu bir siqnaldır, qadağa deyil."
+      ],
+      "visible": true,
+      "featured": false
+    },
+    {
+      "slug": "ozunu-yeniden-qur",
+      "episode": 3,
+      "title": "Özünü Yenidən Qur",
+      "description": "Bəzən yeni bir həyata başlamaq üçün əvvəlcə köhnə özünü buraxmalısan. Dəyişiklik, itki, qorxu və qeyri-müəyyənliyin içindən keçərək sənə uyğun olan həyatı gör və onu yenidən qur.",
+      "guests": [
+        "Təhminə Doruk",
+        "Senan"
+      ],
+      "duration": "1H 04",
+      "category": "Relationships",
+      "date": "2026-02-11",
+      "cover": "/images/sisu-outdoor.png",
+      "spotifyUrl": "https://spotify.com",
+      "summary": "TODO: Real epizod məzmunu ilə əvəz et.",
+      "visible": true,
+      "featured": false
+    },
+    {
+      "slug": "zehib-beden-haqiqet",
+      "episode": 4,
+      "title": "Zehin, Bədən və Həqiqət",
+      "description": "Düşüncələrin, bədənin və dünyanı qavramağın bir-birindən nə qədər ayrıdır? Psixologiya, neyroelm, şüur və bədən arasındakı əlaqəni həm rasional, həm də açıq düşüncə ilə araşdır.",
+      "guests": [
+        "Təhminə Doruk",
+        "Senan"
+      ],
+      "duration": "51 MIN",
+      "category": "Life",
+      "date": "2026-02-25",
+      "cover": "/images/tahmine-portrait.png",
+      "spotifyUrl": "https://spotify.com",
+      "summary": "TODO: Real epizod məzmunu ilə əvəz et.",
+      "visible": true,
+      "featured": false
+    },
+    {
+      "slug": "mena-axtarisi",
+      "episode": 5,
+      "title": "Məna Axtarışında",
+      "description": "Yaşamaq, sevmək, itirmək və var olmaq nə deməkdir? Fəlsəfə, spirituallıq, ölüm, həyat, tənhalıq və insan olmağın dərin suallarının ardınca get.",
+      "guests": [
+        "Təhminə Doruk"
+      ],
+      "duration": "39 MIN",
+      "category": "Freedom",
+      "date": "2026-03-10",
+      "cover": "/images/video-2.png",
+      "spotifyUrl": "https://spotify.com",
+      "summary": "TODO: Real epizod məzmunu ilə əvəz et.",
+      "visible": true,
+      "featured": false
+    }
+  ],
+  "journal": [
+    {
+      "slug": "hec-kim-senin-yerine-yasaya-bilmez",
+      "index": "01",
+      "title": "Heç kim sənin yerinə yaşaya bilməz.",
+      "excerpt": "Başqalarının gözləntiləri ilə öz həqiqətin arasındakı incə xətt haqqında.",
+      "readingTime": "6 dəq oxu",
+      "category": "Freedom",
+      "date": "2026-01-09",
+      "cover": "/images/journal-1.png",
+      "body": [
+        {
+          "type": "p",
+          "text": "Uzun müddət başqalarının həyatımı necə görmək istədiyini yaşadım. TODO: Real esse mətni ilə əvəz et — bu yalnız redaktə oluna bilən yer tutucudur."
+        },
+        {
+          "type": "quote",
+          "text": "Öz həyatının müəllifi olmaq başqalarının qələmini geri almaqla başlayır."
+        },
+        {
+          "type": "p",
+          "text": "Müşahidə etmək, sorğulamaq və araşdırmaq — öz həqiqətinə gedən yol buradan keçir."
+        },
+        {
+          "type": "h",
+          "text": "Seçimin ağırlığı"
+        },
+        {
+          "type": "p",
+          "text": "Azadlıq həm də məsuliyyətdir. Seçim etdiyimiz an, onun nəticələrini də üzərimizə götürürük."
+        }
+      ],
+      "visible": true,
+      "featured": true
+    },
+    {
+      "slug": "azadliq-secim-deyil-mesuliyyetdir",
+      "index": "02",
+      "title": "Azadlıq seçim deyil, məsuliyyətdir.",
+      "excerpt": "Azad olmaq nə deməkdir və nəyin bahasına gəlir?",
+      "readingTime": "8 dəq oxu",
+      "category": "Life",
+      "date": "2026-01-23",
+      "cover": "/images/sisu-outdoor.png",
+      "body": [
+        {
+          "type": "p",
+          "text": "TODO: Real esse mətni ilə əvəz et."
+        },
+        {
+          "type": "quote",
+          "text": "Azadlıq istədiyin hər şeyi etmək deyil. Azadlıq — öz həyatını seçməkdir."
+        }
+      ],
+      "visible": true,
+      "featured": false
+    },
+    {
+      "slug": "oz-sesimizi-esitmek",
+      "index": "03",
+      "title": "Nə vaxt öz səsimizi eşitməyi dayandırırıq?",
+      "excerpt": "Daxili səsimizlə əlaqəni itirmək və onu yenidən tapmaq.",
+      "readingTime": "5 dəq oxu",
+      "category": "Psychology",
+      "date": "2026-02-06",
+      "cover": "/images/video-2.png",
+      "body": [
+        {
+          "type": "p",
+          "text": "TODO: Real esse mətni ilə əvəz et."
+        }
+      ],
+      "visible": true,
+      "featured": false
+    },
+    {
+      "slug": "muahide-etmek-sanetdir",
+      "index": "04",
+      "title": "Müşahidə etmək bir sənətdir.",
+      "excerpt": "Tələsmədən baxmaq, tələsmədən anlamaq haqqında.",
+      "readingTime": "4 dəq oxu",
+      "category": "Thoughts",
+      "date": "2026-02-20",
+      "cover": "/images/video-4.png",
+      "body": [
+        {
+          "type": "p",
+          "text": "TODO: Real esse mətni ilə əvəz et."
+        }
+      ],
+      "visible": true,
+      "featured": false
+    }
+  ],
+  "stories": [
+    {
+      "slug": "ayan",
+      "name": "Ayan",
+      "category": "Freedom",
+      "statement": "Başqalarının planından çıxıb öz həyatımı seçdim.",
+      "title": "Gec deyildi.",
+      "portrait": "/images/story-1.png",
+      "body": [
+        "TODO: Ayanın həqiqi hekayəsi ilə əvəz et. Bu redaktə oluna bilən yer tutucudur."
+      ],
+      "visible": true,
+      "featured": true
+    },
+    {
+      "slug": "leyla",
+      "name": "Leyla",
+      "category": "Courage",
+      "statement": "Qorxduğum söhbəti nəhayət etdim.",
+      "title": "İlk cümlə ən çətini idi.",
+      "portrait": "/images/story-2.png",
+      "body": [
+        "TODO: Leylanın hekayəsi ilə əvəz et."
+      ],
+      "visible": true,
+      "featured": false
+    },
+    {
+      "slug": "nihad",
+      "name": "Nihad",
+      "category": "Self-authorship",
+      "statement": "Öz səsimi yenidən eşitməyi öyrəndim.",
+      "title": "Sükut da bir cavabdır.",
+      "portrait": "/images/story-3.png",
+      "body": [
+        "TODO: Nihadın hekayəsi ilə əvəz et."
+      ],
+      "visible": true,
+      "featured": false
+    }
+  ],
+  "videos": [
+    {
+      "slug": "oz-yolunu-secmek",
+      "title": "Öz yolunu seçmək",
+      "category": "Short Films",
+      "duration": "4:12",
+      "date": "2026-01-16",
+      "poster": "/images/sisu-closing.png",
+      "aspect": "landscape",
+      "youtubeUrl": "https://youtube.com",
+      "description": "Qısa kinematik esse — seçim və cəsarət haqqında.",
+      "visible": true,
+      "featured": true
+    },
+    {
+      "slug": "sabah-sohbeti",
+      "title": "Səhər söhbəti",
+      "category": "Conversations",
+      "duration": "12:40",
+      "date": "2026-01-30",
+      "poster": "/images/video-1.png",
+      "aspect": "landscape",
+      "youtubeUrl": "https://youtube.com",
+      "description": "Təhminə və Senan gündəlik seçimlər haqqında.",
+      "visible": true,
+      "featured": false
+    },
+    {
+      "slug": "gunduzun-sesi",
+      "title": "Gündüzün səsi",
+      "category": "Thoughts",
+      "duration": "2:05",
+      "date": "2026-02-08",
+      "poster": "/images/video-2.png",
+      "aspect": "portrait",
+      "videoUrl": "/videos/sisu-hero.mp4",
+      "description": "Bir dəqiqəlik düşüncə.",
+      "visible": true,
+      "featured": false
+    },
+    {
+      "slug": "nefes",
+      "title": "Nəfəs",
+      "category": "Life",
+      "duration": "1:30",
+      "date": "2026-02-14",
+      "poster": "/images/video-3.png",
+      "aspect": "square",
+      "description": "Sakit an.",
+      "visible": true,
+      "featured": false
+    },
+    {
+      "slug": "meshede",
+      "title": "Meşədə",
+      "category": "Freedom",
+      "duration": "3:48",
+      "date": "2026-02-22",
+      "poster": "/images/video-4.png",
+      "aspect": "landscape",
+      "description": "Təbiətdə tənhalıq və azadlıq.",
+      "visible": true,
+      "featured": false
+    },
+    {
+      "slug": "pencerenin-onunde",
+      "title": "Pəncərənin önündə",
+      "category": "Psychology",
+      "duration": "6:20",
+      "date": "2026-03-04",
+      "poster": "/images/sisu-outdoor.png",
+      "aspect": "portrait",
+      "description": "İçəri baxmaq haqqında.",
+      "visible": true,
+      "featured": false
+    }
+  ]
+}
