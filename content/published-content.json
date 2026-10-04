@@ -1,8 +1,8 @@
 {
   "homepage": {
-    "heroEyebrow": "",
+    "heroEyebrow": "01 / SISU",
     "heroName": "Təhminə Doruk",
-    "heroTitle": "SISU \nfree soul\n",
+    "heroTitle": "SISU\nfree soul",
     "heroTagline": "Öz həyatının müəllifi ol.",
     "heroDescription": "Hazır qəliblərdən çıx. Öz yolunu seç. Öz həqiqətini yarat.",
     "heroCtaLabel": "Hekayəni kəşf et",
@@ -27,9 +27,9 @@
     "tahmineQuote": "SISU – Free Soul, həyatın içində özünü itirmədən, özün olaraq yaşamağın mümkün olduğuna inanan bir məkandır.",
     "tahmineCta": "Hekayəmi oxu",
     "tahmineCtaHref": "/about",
-    "signatureLeftImage": "/uploads/2026-10-04/c2a18493-35a3-443b-90e9-20987d2bdb46.jpg",
+    "signatureLeftImage": "/images/tahmina/5219684625851032051.jpg",
     "signatureLeftAlt": "Təhminə açıq havada.",
-    "signatureRightImage": "/uploads/2026-10-04/c8b1201c-cb24-4457-9baf-43257e4b98a5.jpg",
+    "signatureRightImage": "/images/tahmina/5219684625851032054.jpg",
     "signatureRightAlt": "Təhminənin kinematik portreti.",
     "signatureWideImage": "/images/tahmina/5219684625851032047.jpg",
     "signatureWideAlt": "Təhminənin geniş film kadrı.",
