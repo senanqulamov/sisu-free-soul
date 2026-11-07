@@ -2,6 +2,9 @@
 
 The public site is a Next.js application. Its private content workspace is available at `/admin` and uses GitHub as the persistent store: edits remain in the browser until **Publish changes** creates one Git commit, which triggers the normal Vercel deployment.
 
+Live site: https://sisufreesoul.com
+Repository: https://github.com/senanqulamov/sisu-free-soul
+
 ## Local setup
 
 Copy `.env.example` to `.env.local`, set the variables, then run `npm install` and `npm run dev`. Visit `/admin/login`.
